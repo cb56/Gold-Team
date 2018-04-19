@@ -60,6 +60,7 @@ public class AIHandler : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        
         AI_Text = transform.GetChild(2).gameObject.transform.GetComponentInChildren<Text>();
         check = transform.GetChild(0).gameObject;
         check_Boss = transform.GetChild(1).gameObject;
